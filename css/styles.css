@@ -54,7 +54,9 @@ background-color: #2f303a;
         line-height: 30px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
+            cursor: pointer;
 }
+
 .nav-list {
     font-family: 'Roboto';
         font-style: normal;
@@ -65,9 +67,63 @@ background-color: #2f303a;
         color: #212121;
         
 }
-.nav-list:hover {
+.nav-list:hover, :focus {
     color: #2196F3;
 }
+
+.section-list {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #212121;
+}
+.section-list-text {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
+.section-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+.teammate-name {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.teammate-text {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+
 .contact-list {
     font-family: 'Roboto';
         font-style: normal;
@@ -78,6 +134,37 @@ background-color: #2f303a;
     
         color: #757575;
 }
-.contact-list:hover {
+.address-link {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: #FFFFFF;
+}
+.contact-list:hover, :focus {
     color:#2196F3
+}
+
+
+footer {
+    background-color: #2F303A;
+}
+.footer-nav {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-nav:hover, :focus {
+    color: #2196F3
 }
