@@ -1,14 +1,17 @@
 :root {
-    --primary-text-color: #757575
-    --title-text-color: #212121
-    --accent-color: #2196F3 ;
-    -primary-bg-color: #ffff
+    --primary-text-color: rgba(33, 33, 33, 1);
+    --secondaty-text-color: rgba(117, 117, 117, 1);
+    --title-text-color: rgba(33, 33, 33, 1);
+    --accent-color: rgba(33, 150, 243, 1);
+    --primary-bg-color: rgba(255, 255, 255, 1);
+    --footer-bg-color: rgba(47, 48, 58, 1);
+
 }
 /*Header*/
 
 
 .logo-header {
-    color: #2196F3;
+    color: var(--accent-color);
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -17,7 +20,7 @@
         
 }
 .logo-link {
-    color: #2196F3;
+    color: var(--title-text-color);
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -36,12 +39,12 @@
 
 }
 .nav-list.current {
-    color: #2196F3;
+    color: var(--accent-color)
 }
 
 .nav-list:hover,
 :focus {
-    color: #2196F3;
+    color: var(--accent-color)
 }
 
 
@@ -68,14 +71,14 @@ a {
         letter-spacing: 0.06em;
         text-transform: uppercase;
     text-align: center;
-        color: #FFFFFF;
+        color:var(--primary-bg-color)
 }
 .hero-section {
-background-color: #2f303a;
+background-color: var(--footer-bg-color);
 }
 .hero-button {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--accent-color);
+    background-color: var(--accent-color);
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -93,7 +96,7 @@ background-color: #2f303a;
         line-height: 30px;
         letter-spacing: 0.06em;
     
-        color: #FFFFFF;
+        color: var(--primary-bg-color)
 }
 
 
@@ -106,7 +109,7 @@ background-color: #2f303a;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
-        color: #212121;
+        color: var(--primary-text-color)
 }
 .section-list-text {
     font-family: 'Roboto';
@@ -116,7 +119,7 @@ background-color: #2f303a;
         line-height: 24px;
         letter-spacing: 0.03em;
     
-        color: #757575;
+        color: var(--primary-text-color)
 }
 .section-title {
     font-family: 'Roboto';
@@ -126,7 +129,7 @@ background-color: #2f303a;
         line-height: 42px;
         letter-spacing: 0.03em;
     text-align: center;
-        color: #212121;
+        color: var(--title-text-color)
 }
 .teammate-name {
 font-family: 'Roboto';
@@ -136,7 +139,7 @@ font-family: 'Roboto';
     line-height: 19px;
     letter-spacing: 0.03em;
 text-align: center;
-    color: #212121;
+    color: var(--primary-text-color)
 }
 .teammate-text {
 font-family: 'Roboto';
@@ -146,7 +149,7 @@ font-family: 'Roboto';
     line-height: 19px;
     letter-spacing: 0.03em;
 text-align: center;
-    color: #757575;
+    color: var(--secondaty-text-color)
 }
 .team {
     background: #F5F4FA;
