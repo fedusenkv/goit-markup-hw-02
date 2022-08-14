@@ -1,9 +1,14 @@
-/*Index*/
+:root {
+    --primary-text-color: #757575
+    --title-text-color: #212121
+    --accent-color: #2196F3 ;
+    -primary-bg-color: #ffff
+}
 /*Header*/
 
 
 .logo-header {
-    color: black;
+    color: #2196F3;
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -29,6 +34,9 @@
     letter-spacing: 0.02em;
     color: #212121;
 
+}
+.nav-list.current {
+    color: #2196F3;
 }
 
 .nav-list:hover,
